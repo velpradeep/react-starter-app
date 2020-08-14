@@ -1,0 +1,15 @@
+.owner-details-holder {
+  display: flex;
+  justify-content: space-around;
+  .details-holder {
+    width: 375px;
+    margin-top: 16px;
+    .ant-card-body {
+      font-size: 12px;
+      .details {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
