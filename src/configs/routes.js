@@ -12,6 +12,7 @@ import PartnersDetails from "../components/PartnersDetails";
 import ReviewDocuments from "../components/ReviewDocuments";
 import PaymentHistory from "../components/PaymentHistory";
 import LicenseHistory from "../components/LicenseHistory";
+import CommentsAndTransactionHistory from "../components/CommentsAndTransactionHistory";
 
 const Routes = () => (
     <BrowserRouter>
@@ -27,6 +28,7 @@ const Routes = () => (
                 <GuardedRoute path="/review-documents" component={ReviewDocuments} />
                 <GuardedRoute path="/payment-history" component={PaymentHistory} />
                 <GuardedRoute path="/license-history" component={LicenseHistory} />
+                <GuardedRoute path="/comments-and-transaction-history" component={CommentsAndTransactionHistory} />
                 <GuardedRoute path="*" component={Error} />
             </Switch>
         </GuardProvider>
